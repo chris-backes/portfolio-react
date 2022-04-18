@@ -28,20 +28,24 @@ function Resume() {
 	};
 	return (
 		<section className="resPage">
-			<h2>Download My Résumé</h2>
-			<ul>
-				<li>
-					<a href={resumeDoc} download>
-						MS Word Copy
-					</a>
-				</li>
-				<li>
-					<a href={resumePDF} download>
-						PDF Copy
-					</a>
-				</li>
-			</ul>
+			<div>
+				<h2>Download My Résumé</h2>
+				<ul>
+					<li>
+						<a href={resumeDoc} download>
+							MS Word Copy
+						</a>
+					</li>
+					<li>
+						<a href={resumePDF} download>
+							PDF Copy
+						</a>
+					</li>
+				</ul>
+			</div>
+
 			<div className="skills">
+				<h2>Skills</h2>
 				{Object.entries(skills).map(([key, value]) => (
 					<>
 						<h3>{key}</h3>
