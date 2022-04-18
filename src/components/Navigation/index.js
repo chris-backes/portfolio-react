@@ -5,7 +5,7 @@ function Navigation({setPage}) {
 
 	return (
 		<nav>
-			<ul className="flex-row">
+			<ul>
 				{pages.map((page) => (
 					<li>
 						<span onClick={() => setPage(page)}>{page}</span>

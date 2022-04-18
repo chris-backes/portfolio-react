@@ -36,26 +36,22 @@ main {
 header {
 	justify-content: center;
 	display: flex;
+  color: var(--primary-color);
 	/* justify-content: space-between;
     flex-wrap: wrap; */
-}
-.header-img {
-	border-radius: 50%;
-	height: 60px;
-	width: 60px;
 }
 /* nav styling */
 li {
 	display: inline;
-    padding: 5px
+  padding: 5px
 }
 
 li:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 /* about styling */
 .about-img {
-  border-radius: 5%;
+  border-radius: 10%;
   width: 20vw;
 }
 
@@ -86,4 +82,15 @@ li:hover {
 .project-title {
   width: 100%;
   text-align: center;
+}
+/* footer styling */
+footer nav a {
+	display: inline;
+  padding: 5px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer nav a:hover {
+  font-weight: bold;
 }
