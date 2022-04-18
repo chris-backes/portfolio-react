@@ -1,34 +1,41 @@
-import React from "react"
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
-    return (
-        <footer>
-                  <nav className="d-flex flex-row justify-content-center">
+	return (
+		<footer>
+			<nav>
+				<a
+					href="https://github.com/chris-backes"
+					target="_blank"
+					rel="noreferrer"
+				>
+					GitHub
+				</a>
+				<a
+					href="https://www.linkedin.com/in/christopher-backes-2b7513169/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					LinkedIn
+				</a>
+				<a
+					href="https://stackoverflow.com/users/17331548/chris-backes"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Stack Overflow
+				</a>
         <a
-          className="text-decoration-none icon py-2 px-4"
-          href="https://github.com/chris-backes"
-          target="_blank" rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={["fab", "github"]} size="2x" />{" "}
-        </a>
-        <a
-          className="text-decoration-none icon py-2 px-4"
-          href="https://www.linkedin.com/in/tamara-wilhite/"
-          target="_blank" rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />{" "}
-        </a>
-        <a
-          className="text-decoration-none icon py-2 px-4"
-          href="https://stackoverflow.com/users/17314835/tamara-wilhite"
-          target="_blank" rel="noreferrer"
-        >
-          <FontAwesomeIcon icon="fa-brands fa-stack-overflow" size="2x" />{" "}
-        </a>
-      </nav>
-        </footer>
-    )
+					href="https://www.youtube.com/channel/UCvfToc3ftGQ31IL6P5or6Hw"
+					target="_blank"
+					rel="noreferrer"
+				>
+					YouTube
+				</a>
+			</nav>
+		</footer>
+	);
 }
 
-export default Footer
+export default Footer;

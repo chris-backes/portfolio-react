@@ -1,5 +1,4 @@
 import React from "react";
-import styles from './navigation.css'
 
 function Navigation({setPage}) {
 	const pages = ['About', 'Portfolio', 'Contact', 'Resume']
