@@ -28,34 +28,38 @@ function Resume() {
 	};
 	return (
 		<section className="resPage">
-			<div>
-				<h2>Download My Résumé</h2>
-				<ul>
-					<li>
-						<a href={resumeDoc} download>
-							MS Word Copy
-						</a>
-					</li>
-					<li>
-						<a href={resumePDF} download>
-							PDF Copy
-						</a>
-					</li>
-				</ul>
+			<div class="slideshow">
+				<div class="mover"></div>
 			</div>
-
-			<div className="skills">
-				<h2>Skills</h2>
-				{Object.entries(skills).map(([key, value]) => (
-					<>
-						<h3>{key}</h3>
-						<ul>
-							{value.map((item) => (
-								<li>{item}</li>
-							))}
-						</ul>
-					</>
-				))}
+			<div className="res-section">
+				<div>
+					<h2>Download My Résumé</h2>
+					<ul>
+						<li>
+							<a href={resumeDoc} download>
+								MS Word Copy
+							</a>
+						</li>
+						<li>
+							<a href={resumePDF} download>
+								PDF Copy
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div className="skills">
+					<h2>Skills</h2>
+					{Object.entries(skills).map(([key, value]) => (
+						<>
+							<h3>{key}</h3>
+							<ul>
+								{value.map((item) => (
+									<li>{item}</li>
+								))}
+							</ul>
+						</>
+					))}
+				</div>
 			</div>
 		</section>
 	);

@@ -192,6 +192,7 @@ button:hover {
 /* Resume styling */
 .resPage div {
   margin: 20px auto;
+  text-align: center
 }
 .resPage div h2{
   text-align: center;
@@ -199,19 +200,54 @@ button:hover {
 .resPage ul {
   align-items: flex-end;
   display: flex;
+
 }
 .resPage ul li {
-  align-items: flex-end;
-  align-content: flex-end;
-	display: inline;
-  padding: 5px
+  align-items: center;
+  align-content: center;
+	display: flex;
+  padding: 5px;
 }
 .resPage ul li a {
   text-decoration: none;
-  color: var(--primary-color)
+  align-items: center;
+  align-content: center;
+  color: var(--primary-color);
 }
 .resPage ul li a:hover {
   font-weight: bold;
+}
+.res-section {
+  margin: auto;
+  padding: 10px;
+}
+.slideshow {
+	height: 107px;
+	max-width: 50vw;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+}
+
+.slideshow > div {
+	height: 72px;
+	width: 300vw;
+	background: url("./assets/images/slideshow.png");
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	transform: translate3d(0, 0, 0);
+}
+.slideshow .mover {
+	animation: moveSlideshow 50s linear infinite;
+}
+
+@keyframes moveSlideshow {
+	100% {
+		transform: translateX(-50%);
+	}
 }
 /* footer styling */
 footer {
