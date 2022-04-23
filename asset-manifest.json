@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.91a457b1.css",
-    "main.js": "/portfolio-react/static/js/main.a2b60ce4.js",
+    "main.css": "/portfolio-react/static/css/main.d38c27bb.css",
+    "main.js": "/portfolio-react/static/js/main.496b90a2.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/js-decimals.jpg": "/portfolio-react/static/media/js-decimals.795913b1185bdf2b12aa.jpg",
     "static/media/weather-dashboard.jpg": "/portfolio-react/static/media/weather-dashboard.8cd0ba0254cdfb886e0d.jpg",
@@ -14,16 +14,17 @@
     "static/media/headshot.jpg": "/portfolio-react/static/media/headshot.ff87d7cba8fa5509fcbf.jpg",
     "static/media/code-quiz.jpg": "/portfolio-react/static/media/code-quiz.da31222637278f8ec044.jpg",
     "static/media/wag-app.jpg": "/portfolio-react/static/media/wag-app.62b3b310d9f16c31d21c.jpg",
+    "static/media/slideshow.png": "/portfolio-react/static/media/slideshow.4bb418a07e4c0050c187.png",
     "static/media/note-taker.jpg": "/portfolio-react/static/media/note-taker.220fb75282d3a0b49cb7.jpg",
     "static/media/CBRes.doc": "/portfolio-react/static/media/CBRes.cf5296c9d7da249643da.doc",
     "static/media/password-generator.jpg": "/portfolio-react/static/media/password-generator.b8f91c48abd792861846.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.91a457b1.css.map": "/portfolio-react/static/css/main.91a457b1.css.map",
-    "main.a2b60ce4.js.map": "/portfolio-react/static/js/main.a2b60ce4.js.map",
+    "main.d38c27bb.css.map": "/portfolio-react/static/css/main.d38c27bb.css.map",
+    "main.496b90a2.js.map": "/portfolio-react/static/js/main.496b90a2.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91a457b1.css",
-    "static/js/main.a2b60ce4.js"
+    "static/css/main.d38c27bb.css",
+    "static/js/main.496b90a2.js"
   ]
 }
