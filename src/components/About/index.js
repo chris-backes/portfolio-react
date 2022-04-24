@@ -17,7 +17,7 @@ const About = () => {
                     <br/>In addition to this, I have an NPM package (found in the 
                     portfolio) that handles floating point errors in JavaScript. 
                     <br/>I also have been working through various algorithms, and I'm 
-                    trying to work throuh the first 100 problems on
+                    trying to work through the first 100 problems on
                     <a href="https://projecteuler.net"> Project Euler</a>.
                     <br/>You can check out my YouTube (link below) channel for my 
                     solutions to the first ten problems, as well as some other 

@@ -2,6 +2,7 @@ import React from "react";
 import resumeDoc from "../../assets/downloads/CBRes.doc";
 import resumePDF from "../../assets/downloads/CBRes.pdf";
 
+
 function Resume() {
 	const skills = {
 		Languages: ["HTML", "CSS", "JavaScript"],

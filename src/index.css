@@ -63,6 +63,7 @@ nav ul li {
 
 nav ul li:hover {
   font-weight: bold;
+  color: var(--fifth-color)
 }
 /* about styling */
 .about {
@@ -81,10 +82,12 @@ nav ul li:hover {
 
 .about-txt p a{
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .about-txt p a:hover {
   font-weight: bold;
+  color: var(--fifth-color)
 }
 
 .about-end {
@@ -133,6 +136,7 @@ nav ul li:hover {
 
 .project-container div p a:hover {
   font-weight: bold;
+  color: var(--fifth-color)
 }
 
 .project-title {
@@ -217,6 +221,7 @@ button:hover {
 }
 .resPage ul li a:hover {
   font-weight: bold;
+  color: var(--fifth-color)
 }
 .res-section {
   margin: auto;
@@ -260,13 +265,18 @@ footer {
   color: var(--primary-color);
   font-size: larger;
 }
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
 footer nav a {
-	display: inline;
-  padding: 5px;
+  padding: 10px;
+  margin: auto 10px;
   text-decoration: none;
   color: var(--primary-color);
 }
 
 footer nav a:hover {
-  font-weight: bold;
+  color: var(--fifth-color)
 }
