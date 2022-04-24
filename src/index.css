@@ -1,9 +1,9 @@
 :root {
-	--primary-color: #727272;
-	--secondary-color: #dadada;
-	--tertiary-color: #dfdfdf;
-	--fourth-color: #d1d1d1;
-	--fifth-color: #9f9f9f;
+	--primary-color: #D9D9E3;
+	--secondary-color: #8E9DB5;
+	--tertiary-color: #DDDBFD;
+	--fourth-color: #768DB7;
+	--fifth-color: #BBB8EF;
 }
 
 * {
@@ -41,7 +41,7 @@ main {
 }
 /* header styling */
 header {
-	justify-content: center;
+	justify-content: space-evenly;
 	display: flex;
   color: var(--primary-color);
   margin: 10px auto 30px;
@@ -177,7 +177,7 @@ button {
 	background: var(--tertiary-color);
 	border: 0;
 	border-radius: 5px;
-	color: var(--primary-color);
+	color: var(--fourth-color);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -186,7 +186,7 @@ button {
 }
 
 button:hover {
-  color: black
+  color: var(--fifth-color)
 }
 
 /* Resume styling */
@@ -200,13 +200,14 @@ button:hover {
 .resPage ul {
   align-items: flex-end;
   display: flex;
+  margin: 10px auto;
 
 }
 .resPage ul li {
   align-items: center;
   align-content: center;
 	display: flex;
-  padding: 5px;
+  padding:5px;
 }
 .resPage ul li a {
   text-decoration: none;
@@ -220,6 +221,9 @@ button:hover {
 .res-section {
   margin: auto;
   padding: 10px;
+}
+.skills h2 {
+  margin: 5px auto;
 }
 .slideshow {
 	height: 107px;

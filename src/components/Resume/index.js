@@ -34,7 +34,7 @@ function Resume() {
 			<div className="res-section">
 				<div>
 					<h2>Download My Résumé</h2>
-					<ul>
+					<ul className="resumes-download">
 						<li>
 							<a href={resumeDoc} download>
 								MS Word Copy
