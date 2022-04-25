@@ -64,7 +64,7 @@ function Resume() {
 					<img className='logo' src={item} alt="something" />
 				))}
 				{images.map((item) => (
-					<img src={item} alt="something" />
+					<img className='logo' src={item} alt="something" />
 				))}
 			</Marquee>
 			<section className="res-section">
