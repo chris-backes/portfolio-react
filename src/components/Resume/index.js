@@ -59,7 +59,7 @@ function Resume() {
 	};
 	return (
 		<div className="resPage">
-			<Marquee className="logos-marquee" speed="90" gradientColor="[118, 141, 183]" gradient="true">
+			<Marquee className="logos-marquee" speed="80" gradientColor="[118, 141, 183]" gradient="true">
 				{images.map((item) => (
 					<img className='logo' src={item} alt="something" />
 				))}

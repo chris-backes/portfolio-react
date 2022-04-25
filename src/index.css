@@ -216,14 +216,18 @@ button:hover {
 	display: flex;
 	padding: 5px;
 }
-.res-section div ul li a {
+.resumes-download {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resumes-download li a {
 	text-decoration: none;
 	align-items: center;
 	align-content: center;
 	color: var(--primary-color);
+  font-weight: bold;
 }
 .res-section div ul li a:hover {
-	font-weight: bold;
 	color: var(--fifth-color);
 }
 
@@ -285,5 +289,5 @@ footer nav a:hover {
   max-width: 650px
 }
 .logo {
-	margin: 0px 5px;
+	margin: 0px 10px;
 }
