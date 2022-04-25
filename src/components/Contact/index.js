@@ -27,7 +27,7 @@ const Contact = () => {
 		console.log(formState);
 	}
 	return (
-		<section>
+		<section className='contact-page'>
 			<h1>Contact me</h1>
 			<form id="contact-form" onSubmit={handleSubmit}>
 				<div>

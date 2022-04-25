@@ -13,13 +13,16 @@ const About = () => {
                     Recent graduate from GWA bootcamp for full-stack programming. 
                     You can check out my GitHub to see the projects I've done. 
                     Learning to be more proficient in React, as well as working on 
-                    a couple of my own projects. 
-                    <br/>In addition to this, I have an NPM package (found in the 
-                    portfolio) that handles floating point errors in JavaScript. 
-                    <br/>I also have been working through various algorithms, and I'm 
+                    a couple of my own projects.
+                </p>
+                <p>
+                    In addition to this, I have an NPM package (found in the 
+                    portfolio) that handles floating point errors in JavaScript. I also have been working through various algorithms, and I'm 
                     trying to work through the first 100 problems on
                     <a href="https://projecteuler.net"> Project Euler</a>.
-                    <br/>You can check out my YouTube (link below) channel for my 
+                </p> 
+                <p>
+                    You can check out my YouTube (link below) channel for my 
                     solutions to the first ten problems, as well as some other 
                     projects of mine.
                 </p>

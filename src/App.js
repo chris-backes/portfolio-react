@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 
 function App() {
   const [page, setPage] = useState('');
+
   const renderPage = (currentPage) => {
     switch (currentPage) {
       case "About":
@@ -25,11 +26,13 @@ function App() {
   };
   return (
     <>
+      <body>
       <Header setPage={setPage}/>
       <main>
         {renderPage(page)}
       </main>
       <Footer />
+      </body>
     </>
   );
 }
