@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.483ed47d.css",
-    "main.js": "/portfolio-react/static/js/main.7c24582e.js",
+    "main.css": "/portfolio-react/static/css/main.3224097c.css",
+    "main.js": "/portfolio-react/static/js/main.31caa601.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/js-decimals.jpg": "/portfolio-react/static/media/js-decimals.795913b1185bdf2b12aa.jpg",
     "static/media/weather-dashboard.jpg": "/portfolio-react/static/media/weather-dashboard.8cd0ba0254cdfb886e0d.jpg",
@@ -15,16 +15,18 @@
     "static/media/code-quiz.jpg": "/portfolio-react/static/media/code-quiz.da31222637278f8ec044.jpg",
     "static/media/wag-app.jpg": "/portfolio-react/static/media/wag-app.62b3b310d9f16c31d21c.jpg",
     "static/media/slideshow.png": "/portfolio-react/static/media/slideshow.4bb418a07e4c0050c187.png",
+    "static/media/jquery.png": "/portfolio-react/static/media/jquery.9fc3290b9c4522d96618.png",
     "static/media/note-taker.jpg": "/portfolio-react/static/media/note-taker.220fb75282d3a0b49cb7.jpg",
     "static/media/CBRes.doc": "/portfolio-react/static/media/CBRes.cf5296c9d7da249643da.doc",
     "static/media/password-generator.jpg": "/portfolio-react/static/media/password-generator.b8f91c48abd792861846.jpg",
+    "static/media/mern.png": "/portfolio-react/static/media/mern.045d7aa427cf1b25b600.png",
     "index.html": "/portfolio-react/index.html",
-    "main.483ed47d.css.map": "/portfolio-react/static/css/main.483ed47d.css.map",
-    "main.7c24582e.js.map": "/portfolio-react/static/js/main.7c24582e.js.map",
+    "main.3224097c.css.map": "/portfolio-react/static/css/main.3224097c.css.map",
+    "main.31caa601.js.map": "/portfolio-react/static/js/main.31caa601.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.483ed47d.css",
-    "static/js/main.7c24582e.js"
+    "static/css/main.3224097c.css",
+    "static/js/main.31caa601.js"
   ]
 }
