@@ -12,9 +12,9 @@ AS AN employer looking for candidates with experience building single-page appli
 
 ## Screenshot
 
-![About View](./assets/pg1.jpg)
+![About View](./assets/about.gif)
 
-![Portfolio View](./assets/pg2.jpg)
+![Portfolio View](./assets/resume.gif)
 
 ## Site
 

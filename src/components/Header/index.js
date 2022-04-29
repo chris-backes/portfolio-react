@@ -1,14 +1,14 @@
 import React from "react";
 import Navigation from "../Navigation";
 
-function Header({ setPage }) {
+function Header({ setPage, setReset }) {
 	return (
 		<header>
 			<div>
                 <h1>Christopher Backes</h1>
 			</div>
 			<Navigation
-			setPage={setPage}
+			setPage={setPage} setReset={setReset}
 			/>
 		</header>
 	);

@@ -1,14 +1,16 @@
 import React from "react";
 
-function Navigation({setPage}) {
-	const pages = ['About', 'Portfolio', 'Contact', 'Resume']
+function Navigation({ setPage, setReset }) {
+	const pages = ['About', 'Portfolio', 'Resume']
 
 	return (
 		<nav>
 			<ul>
 				{pages.map((page) => (
 					<li>
-						<span onClick={() => setPage(page)}>{page}</span>
+						<span onClick={() => {
+							setPage(page)
+							setReset(true)}}>{page}</span>
 					</li>
 				))}
 			</ul>

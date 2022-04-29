@@ -42,7 +42,7 @@ header {
 	display: flex;
 	color: var(--primary-color);
 	margin: 10px auto;
-  max-width: 650px
+	max-width: 650px;
 }
 /* nav styling */
 nav {
@@ -57,12 +57,14 @@ nav ul li {
 	align-content: flex-end;
 	display: inline;
 	padding: 5px;
-  font-weight: bold;
-  cursor: pointer;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 nav ul li:hover {
 	color: var(--fifth-color);
+	transition: 0.5s;
 }
 /* about styling */
 .about {
@@ -82,11 +84,13 @@ nav ul li:hover {
 .about-txt p a {
 	text-decoration: none;
 	color: var(--primary-color);
+	transition: 0.5s;
 }
 
 .about-txt p a:hover {
 	font-weight: bold;
 	color: var(--fifth-color);
+	transition: 0.5s;
 }
 
 .about-end {
@@ -95,7 +99,7 @@ nav ul li:hover {
 }
 .about-img {
 	border-radius: 10%;
-  max-width: 15vw;
+	max-width: 15vw;
 	margin: auto;
 }
 
@@ -131,11 +135,13 @@ nav ul li:hover {
 .project-container div p a {
 	text-decoration: none;
 	color: var(--primary-color);
+	transition: 0.5s;
 }
 
 .project-container div p a:hover {
 	font-weight: bold;
 	color: var(--fifth-color);
+	transition: 0.5s;
 }
 
 .project-title {
@@ -144,7 +150,7 @@ nav ul li:hover {
 }
 /*contact styling */
 .contact-page {
-  max-width: 600px;
+	max-width: 600px;
 }
 form div {
 	margin: 15px;
@@ -189,10 +195,12 @@ button {
 	font-weight: 600;
 	margin-bottom: 30px;
 	padding: 10px 15px;
+	transition: 0.5s;
 }
 
 button:hover {
 	color: var(--fifth-color);
+	transition: 0.5s;
 }
 
 /* Resume styling */
@@ -200,7 +208,7 @@ button:hover {
 	margin: 20px auto;
 	text-align: center;
 	padding: 10px;
-  max-width: 600px;
+	max-width: 600px;
 }
 .res-section div h2 {
 	text-align: center;
@@ -217,18 +225,20 @@ button:hover {
 	padding: 5px;
 }
 .resumes-download {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 .resumes-download li a {
 	text-decoration: none;
 	align-items: center;
 	align-content: center;
 	color: var(--primary-color);
-  font-weight: bold;
+	font-weight: bold;
+	transition: 0.5s;
 }
 .res-section div ul li a:hover {
 	color: var(--fifth-color);
+	transition: 0.5s;
 }
 
 .skills h2 {
@@ -278,15 +288,19 @@ footer nav a {
 	margin: auto 10px;
 	text-decoration: none;
 	color: var(--primary-color);
+	font-size: 1em;
+	transition: 0.5s;
 }
 
 footer nav a:hover {
 	color: var(--fifth-color);
+	font-size: 1.5em;
+	transition: 0.5s;
 }
 
 .logos-marquee {
 	margin: auto;
-  max-width: 650px
+	max-width: 650px;
 }
 .logo {
 	margin: 0px 10px;
