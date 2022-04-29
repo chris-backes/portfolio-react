@@ -1,14 +1,6 @@
 # My Portfolio
 
-## Description
-
-SPA built in React for my personal portfolio.
-
-## User Story
-
-```
-AS AN employer looking for candidates with experience building single-page applications I WANT to view a potential employee's deployed React portfolio of work samples SO THAT I can assess whether they're a good candidate for an open position
-```
+https://chris-backes.github.io/portfolio-react/
 
 ## Screenshot
 
@@ -16,6 +8,3 @@ AS AN employer looking for candidates with experience building single-page appli
 
 ![Portfolio View](./assets/resume.gif)
 
-## Site
-
-https://chris-backes.github.io/portfolio-react/
