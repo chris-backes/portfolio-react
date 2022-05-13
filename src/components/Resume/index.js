@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import resumeDoc from "../../assets/downloads/CBRes.doc";
 import resumePDF from "../../assets/downloads/CBRes.pdf";
 import Marquee from "react-fast-marquee";

@@ -12,12 +12,17 @@ function App() {
 	const [reset, setReset] = useState(false)
 
 	const mainSpring = useSpring({
-		from: { x: -2000 , y: 400, opacity: 0 },
-		to: { x: 0, y: 0, opacity: 1 },
-		config: { duration: 1500 },
+		from: { x: -2000, opacity: 0 },
+		to: { x: 0, opacity: 1 },
+		config: { frequency: 3, damping: 0.5 },
 		reset: reset
 	})
-
+	const resSpring = useSpring({
+		from: { y: -2000, opacity: 0 },
+		to: { y: 0, opacity: 1 },
+		config: { frequency: 3, damping: 0.5 },
+		reset: reset
+	})
 	const renderPage = (currentPage) => {
 		switch (currentPage) {
 			case "About":
@@ -25,11 +30,12 @@ function App() {
 			case "Portfolio":
 				return <animated.main style={mainSpring}><Project /></animated.main>;
 			case "Resume":
-				return <animated.main style={mainSpring}><Resume /></animated.main>;
+				return <animated.main style={resSpring}><Resume /></animated.main>;
 			default:
 				return <animated.main style={mainSpring}><About /></animated.main>;
 		}
 	};
+	console.log(mainSpring)
 	return (
 		<>
 			<Header setPage={setPage} setReset={setReset}/>

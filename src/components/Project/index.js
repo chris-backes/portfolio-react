@@ -11,6 +11,15 @@ import weather from "../../assets/images/weather-dashboard.jpg";
 import workday from "../../assets/images/workday-scheduler.jpg";
 import travel from "../../assets/images/travel-optimizer.jpg";
 
+// import {
+//   useTransition,
+//   useSpring,
+//   useChain,
+//   config,
+//   animated,
+//   useSpringRef,
+// } from 'react-spring'
+
 function Project() {
 	const projects = [
 		{
