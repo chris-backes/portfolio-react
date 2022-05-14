@@ -1,32 +1,34 @@
 import React from "react";
 import budget from "../../assets/images/budget-tracker.jpg";
-import quiz from "../../assets/images/code-quiz.jpg";
 import decimals from "../../assets/images/js-decimals.jpg";
 import notes from "../../assets/images/note-taker.jpg";
-import password from "../../assets/images/password-generator.jpg";
-import buddy from "../../assets/images/run-buddy.jpg";
-import profile from "../../assets/images/team-profile-generator.jpg";
 import wag from "../../assets/images/wag-app.jpg";
 import weather from "../../assets/images/weather-dashboard.jpg";
-import workday from "../../assets/images/workday-scheduler.jpg";
 import travel from "../../assets/images/travel-optimizer.jpg";
+import stonks from "../../assets/images/stock-portfolio-returns.jpg";
+import housing from "../../assets/images/housing-app.jpg";
 
-// import {
-//   useTransition,
-//   useSpring,
-//   useChain,
-//   config,
-//   animated,
-//   useSpringRef,
-// } from 'react-spring'
+import { useTrail, animated } from "react-spring";
 
-function Project() {
+function Project({ reset }) {
 	const projects = [
+		{
+			name: "Stock Portfolio Returns Tracker",
+			git: "https://github.com/chris-backes/stock-portfolio-weighted-returns",
+			site: "https://chris-backes.github.io/stock-portfolio-weighted-returns/",
+			pic: stonks,
+		},
 		{
 			name: "js-decimals",
 			git: "https://github.com/chris-backes/js-decimals",
 			site: "https://www.npmjs.com/package/js-decimals",
 			pic: decimals,
+		},
+		{
+			name: "Residential Apartment Management Site",
+			git: "https://github.com/chris-backes/housing-management-app",
+			site: "https://ancient-journey-45474.herokuapp.com/",
+			pic: housing,
 		},
 		{
 			name: "Budget Tracker",
@@ -47,12 +49,6 @@ function Project() {
 			pic: notes,
 		},
 		{
-			name: "Team Profile Generator",
-			git: "https://github.com/chris-backes/team-profile-generator",
-			site: "https://github.com/chris-backes/team-profile-generator",
-			pic: profile,
-		},
-		{
 			name: "Travel Optimizer",
 			git: "https://github.com/chris-backes/travel-optimizer",
 			site: "https://maryjezek.github.io/travel-optimizer/",
@@ -64,43 +60,66 @@ function Project() {
 			site: "https://chris-backes.github.io/weather-dashboard/",
 			pic: weather,
 		},
-		{
-			name: "Work Day Scheduler",
-			git: "https://github.com/chris-backes/work-day-scheduler",
-			site: "https://chris-backes.github.io/work-day-scheduler/",
-			pic: workday,
-		},
-		{
-			name: "Code Quiz",
-			git: "https://github.com/chris-backes/code-quiz",
-			site: "https://chris-backes.github.io/code-quiz/",
-			pic: quiz,
-		},
-		{
-			name: "Password Generator",
-			git: "https://github.com/chris-backes/password-generator",
-			site: "https://chris-backes.github.io/password-generator/",
-			pic: password,
-		},
-		{
-			name: "Run Buddy Website",
-			git: "https://github.com/chris-backes/run-buddy",
-			site: "https://chris-backes.github.io/run-buddy/",
-			pic: buddy,
-		},
 	];
+
+	const trailAnimation = useTrail(projects.length, {
+		from: { y: 300, opacity: 0 },
+		to: { y: 0, opacity: 1 },
+		config: { mass: 2, tension: 200 },
+		reset: reset
+	});
 	return (
 		<div className="projects">
-			{projects.map((item) => (
+			{trailAnimation.map((spring, index) => {
+				return (
+					<animated.div
+						className="project-container"
+						key={index}
+						style={spring}
+					>
+						<img
+							src={projects[index].pic}
+							alt={projects[index].name}
+						/>
+						<div>
+							<p>
+								<a
+									href={projects[index].site}
+									target="_blank"
+									rel="noreferrer"
+								>
+									Deployed Application
+								</a>
+								<br />
+								<a href={projects[index].git} target="_blank" rel="noreferrer">
+									Repository
+								</a>
+							</p>
+						</div>
+					</animated.div>
+				);
+			})}
+			{/* {projects.map((item) => (
 				<div className="project-container">
-                    <img src={item.pic} alt={item.name}/>
+					<img src={item.pic} alt={item.name} />
 					<div>
 						<h4 className="project-title">{item.name}</h4>
-						<p><a href={item.site} target="_blank" rel="noreferrer">Deployed Application</a><br/>
-						<a href={item.git} target="_blank" rel="noreferrer">Repository</a></p>
+						<p>
+							<a
+								href={item.site}
+								target="_blank"
+								rel="noreferrer"
+							>
+								Deployed Application
+							</a>
+							<br />
+							<a href={item.git} target="_blank" rel="noreferrer">
+								Repository
+							</a>
+						</p>
 					</div>
-                </div>
-			))}
+				</div>
+			))} */}
 		</div>
 	);
 }
