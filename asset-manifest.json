@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.33b5a2a9.css",
-    "main.js": "/portfolio-react/static/js/main.f1a2fafb.js",
+    "main.css": "/portfolio-react/static/css/main.039067b4.css",
+    "main.js": "/portfolio-react/static/js/main.aff35734.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/headshot.jpg": "/portfolio-react/static/media/headshot.168a3654264762562612.jpg",
     "static/media/stock-portfolio-returns.jpg": "/portfolio-react/static/media/stock-portfolio-returns.26c49713ed3bd44b2934.jpg",
     "static/media/housing-app.jpg": "/portfolio-react/static/media/housing-app.7d5693c4615dae9b002e.jpg",
     "static/media/js-decimals.jpg": "/portfolio-react/static/media/js-decimals.795913b1185bdf2b12aa.jpg",
@@ -10,20 +11,18 @@
     "static/media/travel-optimizer.jpg": "/portfolio-react/static/media/travel-optimizer.6a7c9a586f30c02e2560.jpg",
     "static/media/budget-tracker.jpg": "/portfolio-react/static/media/budget-tracker.4ddc9ab80ecb913c7704.jpg",
     "static/media/CBRes.pdf": "/portfolio-react/static/media/CBRes.c3a11dd8f1cadcd8fe95.pdf",
-    "static/media/headshot.jpg": "/portfolio-react/static/media/headshot.ff87d7cba8fa5509fcbf.jpg",
     "static/media/wag-app.jpg": "/portfolio-react/static/media/wag-app.62b3b310d9f16c31d21c.jpg",
-    "static/media/slideshow.png": "/portfolio-react/static/media/slideshow.4bb418a07e4c0050c187.png",
     "static/media/jquery.png": "/portfolio-react/static/media/jquery.9fc3290b9c4522d96618.png",
     "static/media/note-taker.jpg": "/portfolio-react/static/media/note-taker.220fb75282d3a0b49cb7.jpg",
     "static/media/CBRes.doc": "/portfolio-react/static/media/CBRes.cf5296c9d7da249643da.doc",
     "static/media/mern.png": "/portfolio-react/static/media/mern.045d7aa427cf1b25b600.png",
     "index.html": "/portfolio-react/index.html",
-    "main.33b5a2a9.css.map": "/portfolio-react/static/css/main.33b5a2a9.css.map",
-    "main.f1a2fafb.js.map": "/portfolio-react/static/js/main.f1a2fafb.js.map",
+    "main.039067b4.css.map": "/portfolio-react/static/css/main.039067b4.css.map",
+    "main.aff35734.js.map": "/portfolio-react/static/js/main.aff35734.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b5a2a9.css",
-    "static/js/main.f1a2fafb.js"
+    "static/css/main.039067b4.css",
+    "static/js/main.aff35734.js"
   ]
 }
