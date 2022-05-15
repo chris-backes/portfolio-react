@@ -12,15 +12,15 @@ function App() {
 	const [reset, setReset] = useState(false)
 
 	const mainSpring = useSpring({
-		from: { x: -2000, opacity: 0 },
+		from: { x: -300, opacity: 0 },
 		to: { x: 0, opacity: 1 },
-		config: { mass: 5, tension: 100 },
+		config: { mass: 5, tension: 75 },
 		reset: reset
 	})
 	const resSpring = useSpring({
-		from: { y: -1250, opacity: 0 },
+		from: { y: -150, opacity: 0 },
 		to: { y: 0, opacity: 1 },
-		config: { mass: 5, tension: 100 },
+		config: { mass: 3, tension: 100 },
 		reset: reset
 	})
 	const renderPage = (currentPage) => {

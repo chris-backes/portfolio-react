@@ -6,8 +6,8 @@ function Navigation({ setPage, setReset }) {
 	return (
 		<nav>
 			<ul>
-				{pages.map((page) => (
-					<li>
+				{pages.map((page, index) => (
+					<li key={index}>
 						<span onClick={() => {
 							setPage(page)
 							setReset(true)}}>{page}</span>

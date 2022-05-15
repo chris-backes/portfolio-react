@@ -244,34 +244,6 @@ button:hover {
 .skills h2 {
 	margin: 5px auto;
 }
-.slideshow {
-	height: 107px;
-	max-width: 50vw;
-	margin: 0 auto;
-	position: relative;
-	overflow: hidden;
-	transform: translate3d(0, 0, 0);
-}
-
-.slideshow > div {
-	height: 72px;
-	width: 300vw;
-	background: url("./assets/images/slideshow.png");
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	transform: translate3d(0, 0, 0);
-}
-.slideshow .mover {
-	animation: moveSlideshow 50s linear infinite;
-}
-
-@keyframes moveSlideshow {
-	100% {
-		transform: translateX(-50%);
-	}
-}
 /* footer styling */
 footer {
 	justify-content: center;

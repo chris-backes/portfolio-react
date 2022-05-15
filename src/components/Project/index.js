@@ -65,7 +65,7 @@ function Project({ reset }) {
 	const trailAnimation = useTrail(projects.length, {
 		from: { y: 300, opacity: 0 },
 		to: { y: 0, opacity: 1 },
-		config: { mass: 2, tension: 200 },
+		config: { mass: 2, tension: 150 },
 		reset: reset
 	});
 	return (
@@ -99,27 +99,6 @@ function Project({ reset }) {
 					</animated.div>
 				);
 			})}
-			{/* {projects.map((item) => (
-				<div className="project-container">
-					<img src={item.pic} alt={item.name} />
-					<div>
-						<h4 className="project-title">{item.name}</h4>
-						<p>
-							<a
-								href={item.site}
-								target="_blank"
-								rel="noreferrer"
-							>
-								Deployed Application
-							</a>
-							<br />
-							<a href={item.git} target="_blank" rel="noreferrer">
-								Repository
-							</a>
-						</p>
-					</div>
-				</div>
-			))} */}
 		</div>
 	);
 }
